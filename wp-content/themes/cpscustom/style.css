@@ -1,10 +1,43 @@
-/*
-Theme Name: CPS custom
-Author: Casey Fritsch
-Description: A custom website theme for Corporate Story Productions
-Version: 0.0.1
-*/
+body, ul, div, li {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  background: red;
+  background: lightblue;
+}
+
+/*development*/
+.dev {
+  position: absolute;
+  opacity: 0.5;
+  border: 1px solid grey;
+  width: 100%;
+}
+
+.centered, li, ul, div, button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navcontainer, .header {
+  flex-direction: column;
+}
+
+.nav {
+  list-style-type: none;
+  justify-content: space-around;
+  width: 80%;
+}
+
+button {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+button:hover {
+  background: grey;
 }
