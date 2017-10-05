@@ -1,0 +1,57 @@
+body, ul, div, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: lightblue;
+}
+
+li, ul, div, button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  flex-direction: column;
+}
+
+nav, nav li {
+  display: flex;
+  list-style-type: none;
+  background: white;
+  text-decoration: none;
+}
+
+nav {
+  justify-content: flex-end;
+}
+
+nav li {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: unset;
+}
+
+button {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+button:hover {
+  background: grey;
+}
+
+.project {
+  background: green;
+  min-width: 100px;
+  max-width: 400px;
+  width: 30%;
+}
